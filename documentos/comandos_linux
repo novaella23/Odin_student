@@ -1,0 +1,19 @@
+criação de uma pasta e alguns arquivos usando os comandos mkdir, touche cd
+
+ls - lista as pastas dentro do diretório
+
+touch - cria arquivo dentro do diretório
+
+rmdir - excluir diretorios vazios 
+
+rm -rf testando - excluir o diretorio "não vazio" chamdo testando
+
+crtl+shift+c para copiar dentro do terminal
+
+crtl+shift+v para colar dentro do terminal
+
+code . use quando estiver dentro do diretório que deseja abrir no VSCode. Esse comando abrirá o VSCode e a pasta
+
+você pode abrir o VSCode na linha de comando digitando codee pode abrir pastas ou arquivos adicionando o nome do local depois dele: code my_awesome_project/.
+
+

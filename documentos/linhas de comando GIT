@@ -1,0 +1,70 @@
+
+
+git config --global user.name "novaella23"
+git config --global user.email "dadderio79@outlook.com"
+
+git config --global init.defaultBranch main
+
+git config --global color.ui auto
+
+git config --global pull.rebase false
+
+para confirmar se está configurado:
+git config --get user.name
+git config --get user.email
+
+
+
+CHAVE:
+
+ls ~/.ssh/id_ed25519.pub
+
+ssh-keygen -t ed25519 -C dadderio79@outlook.com
+
+cat ~/.ssh/id_ed25519.pub
+
+
+
+Antes que você comece!
+O Github atualizou recentemente a maneira como nomeia o branch padrão. Isso significa que você precisa ter certeza de que está usando uma versão recente do git (2.28 ou posterior). Você pode verificar sua versão executando:git --version
+
+Se ainda não o fez, defina o seuramificação git padrão local para main. Você pode fazer isso executando:
+
+git config --global init.defaultBranch main
+
+Para obter mais informações sobre a alteração, consulte mastero repositório de renomeação do GitHub .main
+=================================================================
+
+1. CRIAR UM REPOSITÓRIO NO GIT HUB
+2. CRIAR UMA PASTA NO COMPUTADOR
+3. DENTRO DO DIRETÓRIO DA PASTA DO COMPUTADOR DAR:
+
+ git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+
+4. PRONTO!
+
+Depois de criar arquivos só dar os 3 comandos abaixo:
+
+git add .
+
+git commit -m "A message describing what you have done to make this snapshot different"
+
+git pushou git push origin main(Ambos atingem o mesmo objetivo neste contexto)
+
+Comandos relacionados à verificação de status ou histórico de log
+git status
+git log
+
+=================================================================
+
+A sintaxe básica do Git é program | action | destination.
+
+Por exemplo,
+
+git add .é lido como git | add | ., onde o ponto representa tudo no diretório atual;
+git commit -m "message"é lido como git | commit -m | "message"; e
+git statusé lido como git | status | (no destination).
+
+===========================================================
+
+
