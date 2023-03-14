@@ -49,7 +49,7 @@ git add .
 
 git commit -m "A message describing what you have done to make this snapshot different"
 
-git pushou git push origin main(Ambos atingem o mesmo objetivo neste contexto)
+git push ou git push origin main(Ambos atingem o mesmo objetivo neste contexto)
 
 Comandos relacionados à verificação de status ou histórico de log
 git status
